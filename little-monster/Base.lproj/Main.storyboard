@@ -66,6 +66,15 @@
                                     <rect key="frame" x="424" y="79" width="83" height="83"/>
                                 </variation>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="4hg-do-ft0">
+                                <rect key="frame" x="348" y="119" width="79" height="79"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="4hg-do-ft0" secondAttribute="height" multiplier="1:1" id="2P8-eF-qKu"/>
+                                </constraints>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="422" y="206" width="86" height="72"/>
+                                </variation>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="idle1" translatesAutoresizingMaskIntoConstraints="NO" id="hVL-LC-dhD">
                                 <rect key="frame" x="143" y="321" width="315" height="213"/>
                                 <constraints>
@@ -80,16 +89,7 @@
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=compact" misplaced="YES">
-                                    <rect key="frame" x="29" y="138" width="229" height="229"/>
-                                </variation>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="4hg-do-ft0">
-                                <rect key="frame" x="348" y="119" width="79" height="79"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="4hg-do-ft0" secondAttribute="height" multiplier="1:1" id="2P8-eF-qKu"/>
-                                </constraints>
-                                <variation key="heightClass=compact" misplaced="YES">
-                                    <rect key="frame" x="422" y="206" width="86" height="72"/>
+                                    <rect key="frame" x="28" y="143" width="229" height="229"/>
                                 </variation>
                             </imageView>
                         </subviews>
