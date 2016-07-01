@@ -11,6 +11,8 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var monsterImg: UIImageView!
+    @IBOutlet weak var foodImg: DragImage!
+    @IBOutlet weak var heartImg: DragImage!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +27,9 @@ class ViewController: UIViewController {
         monsterImg.startAnimating()
         
     }
-
+    
+    
+    
 
 
 
