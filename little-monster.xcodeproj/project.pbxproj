@@ -13,6 +13,7 @@
 		64F3F5681D25E6220004049A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F3F5671D25E6220004049A /* Assets.xcassets */; };
 		64F3F56B1D25E6220004049A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F3F5691D25E6220004049A /* LaunchScreen.storyboard */; };
 		64F3F5731D2621750004049A /* DragImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F3F5721D2621750004049A /* DragImage.swift */; };
+		64F3F5751D2627870004049A /* MonsterImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F3F5741D2627870004049A /* MonsterImg.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		64F3F56A1D25E6220004049A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64F3F56C1D25E6220004049A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64F3F5721D2621750004049A /* DragImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImage.swift; sourceTree = "<group>"; };
+		64F3F5741D2627870004049A /* MonsterImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				64F3F5601D25E6220004049A /* AppDelegate.swift */,
 				64F3F5621D25E6220004049A /* ViewController.swift */,
+				64F3F5741D2627870004049A /* MonsterImg.swift */,
 				64F3F5641D25E6220004049A /* Main.storyboard */,
 				64F3F5671D25E6220004049A /* Assets.xcassets */,
 				64F3F5721D2621750004049A /* DragImage.swift */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64F3F5751D2627870004049A /* MonsterImg.swift in Sources */,
 				64F3F5631D25E6220004049A /* ViewController.swift in Sources */,
 				64F3F5731D2621750004049A /* DragImage.swift in Sources */,
 				64F3F5611D25E6220004049A /* AppDelegate.swift in Sources */,

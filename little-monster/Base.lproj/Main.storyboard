@@ -57,7 +57,7 @@
                                     <rect key="frame" x="283" y="31" width="25" height="25"/>
                                 </variation>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="idle1" translatesAutoresizingMaskIntoConstraints="NO" id="hVL-LC-dhD">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="idle1" translatesAutoresizingMaskIntoConstraints="NO" id="hVL-LC-dhD" customClass="MonsterImg" customModule="little_monster" customModuleProvider="target">
                                 <rect key="frame" x="143" y="321" width="315" height="213"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="hVL-LC-dhD" secondAttribute="height" multiplier="105:71" id="9Rq-J6-iy8"/>
@@ -277,14 +277,17 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="firstSkullImg" destination="Fhw-n2-V6C" id="VC4-cd-sYQ"/>
                         <outlet property="foodImg" destination="4hg-do-ft0" id="G9A-fn-fqG"/>
                         <outlet property="heartImg" destination="sGu-Nf-3HX" id="fU7-OS-Fkb"/>
                         <outlet property="monsterImg" destination="hVL-LC-dhD" id="V3G-eW-e8X"/>
+                        <outlet property="secondSkullImg" destination="6UA-ll-Oa8" id="GXg-Jd-wXm"/>
+                        <outlet property="thirdSkullImg" destination="6m5-lx-HEG" id="zkk-6C-Lac"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="109" y="468"/>
+            <point key="canvasLocation" x="207" y="537"/>
         </scene>
     </scenes>
     <resources>

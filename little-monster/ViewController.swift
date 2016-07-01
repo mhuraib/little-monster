@@ -10,22 +10,25 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var monsterImg: UIImageView!
+    @IBOutlet weak var firstSkullImg: UIImageView!
+    @IBOutlet weak var secondSkullImg: UIImageView!
+    @IBOutlet weak var thirdSkullImg: UIImageView!
+    @IBOutlet weak var monsterImg: MonsterImg!
     @IBOutlet weak var foodImg: DragImage!
     @IBOutlet weak var heartImg: DragImage!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var monsterImags : [UIImage] = []
-        monsterImags.append(UIImage(named:"idle1")!)
-        monsterImags.append(UIImage(named:"idle2")!)
-        monsterImags.append(UIImage(named:"idle3")!)
-        monsterImags.append(UIImage(named:"idle4")!)
-        monsterImg.animationImages = monsterImags
-        monsterImg.animationDuration = 0.8
-        monsterImg.startAnimating()
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(ViewController.itemDroppedOnCharacter(_:)), name: "onTargetDropped", object: nil)
+        foodImg.dropTarget = monsterImg
+        heartImg.dropTarget = monsterImg
         
+    }
+    
+    func itemDroppedOnCharacter (notify : AnyObject){
+        
+        print("YEP")
     }
     
     
